@@ -28,6 +28,9 @@ b=(6,8,9,10)
 #a.extend(b)   //not possibe for tuple
 c=a+b #concatenation
 print(c)
+print(c.count(6))
+print(min(c))
+print(max(c))
 print("-------------------------------------------")
 
 #nested tuples
@@ -35,5 +38,6 @@ d=(a,b)
 print(d)
 print(d[1])
 print(d[0][3])
+print("---------------------")
 x=("kohli",)*10
 print(x)
