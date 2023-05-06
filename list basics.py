@@ -39,3 +39,6 @@ d.insert(4,"mahesh")
 print(d)
 for i in d:
     print(i)
+a=[1,5,25,0,6]
+print(max(a))
+print(min(a))
