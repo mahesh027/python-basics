@@ -1,0 +1,41 @@
+list=["mahesh",10,"hi","hello","kohli","rahul",'llll']
+print(list)
+print(list[2:4])
+print(list[-1])
+print(list[-6:])
+print(list[:-1])
+list=list+['maheshhh',155]
+print(list)
+list[1:3]=['virat','hellooo']
+print(list)
+list[1:2]=['viratkohli','100']
+print(list)
+list.append(input('enter value'))
+print(list)
+b=list.copy()
+print(b)
+c=["mahesh",10,"hi","hello","kohli","rahul",["dhoni",7,"sachin",10],10]
+print(c)
+print(c[6][2])
+print(c[6][0:2])
+b.clear()
+print(b)
+print(c.count(10))
+print(len(c))
+print(c.index(10))
+c.pop(5)
+print(c)
+print("-------------------------------------------------")
+d=[10,3,2,12,25,1,9,24]
+d.sort()
+print(d)
+d.sort(reverse=True)
+print(d)
+c.extend(d)
+print(c)
+d.insert(2,10)
+print(d)
+d.insert(4,"mahesh")
+print(d)
+for i in d:
+    print(i)
