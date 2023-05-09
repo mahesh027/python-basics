@@ -1,7 +1,11 @@
-"""""def welcome():
+def welcome():
     print("hello")
 welcome()
 welcome()
+
+def num():
+    pass
+print(type(num))
 
 #1. No return type without argument function
 def add():
@@ -32,7 +36,7 @@ def div(a,b):
     return c
 result=div(25,5)
 print("result:",result)
-"""""
+
 
 
 #5.arbitrary arguments funcion (*) // * can be used to pass more than 2 arguments by converting it into list
