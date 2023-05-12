@@ -10,6 +10,7 @@ list[1:3]=['virat','hellooo']
 print(list)
 list[1:2]=['viratkohli','100']
 print(list)
+print("---------------------------------------------")
 list.append(input('enter value'))
 print(list)
 b=list.copy()
@@ -20,6 +21,7 @@ print(c[6][2])
 print(c[6][0:2])
 b.clear()
 print(b)
+print("-------------------------------------------------")
 print(c.count(10))
 print(len(c))
 print(c.index(10))
@@ -37,6 +39,7 @@ d.insert(2,10)
 print(d)
 d.insert(4,"mahesh")
 print(d)
+print("----------------------------------------------------")
 for i in d:
     print(i)
 a=[1,5,25,0,6]
