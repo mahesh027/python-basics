@@ -39,7 +39,7 @@ print("result:",result)
 
 
 
-#5.arbitrary arguments funcion (*) // * can be used to pass more than 2 arguments by converting it into list
+#5.arbitrary arguments funcion (*) // * can be used to pass more than 2 arguments by converting it into tuple
 def class_10(*students):
     print(students)
     print(students[2])
